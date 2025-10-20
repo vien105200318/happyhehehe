@@ -24,17 +24,19 @@ body {
     padding: 60px 40px;
     border-radius: 30px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    max-width: 600px;
+    max-width: 800px;
     animation: fadeIn 0.5s ease-in;
 }
 
 .result-section {
     display: none;
     background: white;
-    padding: 60px 40px;
+    padding: 40px 30px;
     border-radius: 30px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    max-width: 600px;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
     animation: zoomIn 0.6s ease-in;
 }
 
@@ -102,13 +104,19 @@ body {
 
 .image-container {
     margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .love-image {
     max-width: 100%;
-    width: 400px;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
 }
 
 .message {
