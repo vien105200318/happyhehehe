@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chúc mừng 20/10 ❤️</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
+    <!-- Canvas cho Three.js 3D hearts -->
+    <canvas id="threeCanvas"></canvas>
+    
     <div class="container">
         <div class="question-section" id="questionSection">
             <h1 class="title">💖 Chúc mừng ngày 20/10 💖</h1>
@@ -33,6 +38,7 @@
     <!-- Đặt file âm thanh tại audio/1.mp3 -->
     <audio id="loveAudio" src="audio/1.mp3"></audio>
     
+    <script src="three-hearts.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
